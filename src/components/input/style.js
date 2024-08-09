@@ -10,7 +10,6 @@ export const InputContainer = styled.div`
     justify-content: flex-end;
 
     font-size: 24px;
-    font-family: 'Roboto';
     
 
     input {
@@ -21,15 +20,10 @@ export const InputContainer = styled.div`
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+        text-align: center;
         padding: 0 10px;
         font-size: 24px;
-        font-family: 'Roboto';
-        color: #FFFFFF;
+        color: #538392;
+        
     }
-
-    input:focus {
-    outline: none; 
-    box-shadow: 0 0 5px 2px #E5CFE5; 
-}
-}
 `
