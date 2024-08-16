@@ -39,7 +39,7 @@ const App = () => {
       case 'x': 
         return FirstNumber * secondNumber;  
       case '/': 
-        return FirstNumber / secondNumber;  
+         return FirstNumber / secondNumber
       default:
         return secondNumber;
     }
